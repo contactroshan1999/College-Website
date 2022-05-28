@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Education</title>
+    <link rel="stylesheet" type="text/css" href="css\links.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+
+<nav>
+    <a href="index.html"><img src="images\logo.png"></a>
+    <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>About Us</h1>
+    </section>
+<!--About Us Content-->
+<section class="aboutus">
+
+    <div class="row">
+        <div class="about-column">
+            <h1>We are the world largest University</h1>
+            <p>To impart quality education and training and to carry out research and consultancy in consonance with the vision of the institute, by providing state-of-the-art infrastructure and a learner friendly atmosphere in synergy with innovative pedagogy and global networking, to produce world class and socially responsive academicians, leaders and practitioners, in various disciplines; thereby emerging as one of the best institutes.
+                Academic Excellence, Holistic Education, Global relevance and contemporarily are the four cornerstones of MyEdu. Keeping all these in mind, MyEdu looks at:- – Commitment to offer quality education. – Challenge & Motivate students to explore their full potential. – Encourage extra-curricular activities among students & develop their personality. – Promote the Global perspective.
+            </p>
+            <center><a href="" class="hero-button blue-button">Explore More</a></center>
+
+        </div>
+        <div class="about-column">
+            <img src="images\about.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We believe that learning is most fruitful, when knowledge and expertise of individuals from various disciplines and diverse backgrounds are shared.<br> Most importantly, we believe that openness, participation and fairness are necessary for building a culture conductive to learning and growth.</p>
+    <div class="icon">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Roshan</p>
+</section>
+
+
+
+
+
+    <!--js code for toggle menu-->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+       function showmenu()
+       {
+           navlinks.style.right="0";
+       }
+       function hidemenu()
+       {
+           navlinks.style.right="-200px";
+       }
+    </script>
+</body>
+</html>
